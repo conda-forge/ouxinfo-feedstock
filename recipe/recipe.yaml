@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: ouxinfo
-  version: "1.2.0"
+  version: "1.2.1"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: 4300046fa8ba2409a1813ce44b86d855798d6930fe7134455a6a7ab0a4b8a0ce
+  sha256: 1ea0fb9370c8af000a58afea0f088d8241132b303fee0e1c73111d938e4ee855
 
 build:
   number: 0
